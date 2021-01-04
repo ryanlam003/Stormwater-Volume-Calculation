@@ -127,10 +127,10 @@ for ii in range(0,len(addressList)):
     # click the soil type tab, no survey, no expansion
     soilTypeTab = driver.find_element_by_xpath('//*[@id="soiltype"]')
     soilTypeTab.click()
-    time.sleep(4)
+    time.sleep(6)
     surveyButtonNo = driver.find_element_by_xpath('//*[@id="fsrInvite"]/section[3]/button[2]')
     surveyButtonNo.click()
-    time.sleep(2)
+    time.sleep(4)
     expandSearchButtonNo = driver.find_element_by_xpath('//*[@id="expandSearchButtons"]/div[2]/button')
     expandSearchButtonNo.click()
     time.sleep(1)
