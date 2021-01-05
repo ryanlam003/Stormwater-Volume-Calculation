@@ -130,7 +130,7 @@ for ii in range(0,len(addressList)):
     time.sleep(6)
     surveyButtonNo = driver.find_element_by_xpath('//*[@id="fsrInvite"]/section[3]/button[2]')
     surveyButtonNo.click()
-    time.sleep(4)
+    time.sleep(20)
     expandSearchButtonNo = driver.find_element_by_xpath('//*[@id="expandSearchButtons"]/div[2]/button')
     expandSearchButtonNo.click()
     time.sleep(1)
